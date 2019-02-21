@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>react</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.1%" y="-5.9%" width="111.8%" height="111.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="react" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9">
+            <rect id="Rectangle-3" fill-opacity="0.497169384" fill="#00BFC0" x="0" y="0" width="150" height="150" rx="10"></rect>
+            <g id="Group" filter="url(#filter-1)" transform="translate(18.000000, 16.000000)" fill="#FFFFFF" stroke="#979797">
+                <path d="M56.5048544,80.5251366 C25.298085,80.5251366 0,71.1023681 0,59.4787941 C0,47.8552201 25.298085,38.4324516 56.5048544,38.4324516 C87.7116237,38.4324516 113.009709,47.8552201 113.009709,59.4787941 C113.009709,71.1023681 87.7116237,80.5251366 56.5048544,80.5251366 Z M56.5048544,78.8414292 C84.5909468,78.8414292 107.359223,70.2981191 107.359223,59.759412 C107.359223,49.2207049 84.5909468,40.6773948 56.5048544,40.6773948 C28.4187619,40.6773948 5.65048544,49.2207049 5.65048544,59.759412 C5.65048544,70.2981191 28.4187619,78.8414292 56.5048544,78.8414292 Z" id="Combined-Shape"></path>
+                <path d="M56.5048544,80.5251366 C25.298085,80.5251366 0,71.1023681 0,59.4787941 C0,47.8552201 25.298085,38.4324516 56.5048544,38.4324516 C87.7116237,38.4324516 113.009709,47.8552201 113.009709,59.4787941 C113.009709,71.1023681 87.7116237,80.5251366 56.5048544,80.5251366 Z M56.5048544,78.8414292 C84.5909468,78.8414292 107.359223,70.2981191 107.359223,59.759412 C107.359223,49.2207049 84.5909468,40.6773948 56.5048544,40.6773948 C28.4187619,40.6773948 5.65048544,49.2207049 5.65048544,59.759412 C5.65048544,70.2981191 28.4187619,78.8414292 56.5048544,78.8414292 Z" id="Combined-Shape" transform="translate(56.504854, 59.478794) rotate(60.000000) translate(-56.504854, -59.478794) "></path>
+                <path d="M56.5048544,80.5251366 C25.298085,80.5251366 0,71.1023681 0,59.4787941 C0,47.8552201 25.298085,38.4324516 56.5048544,38.4324516 C87.7116237,38.4324516 113.009709,47.8552201 113.009709,59.4787941 C113.009709,71.1023681 87.7116237,80.5251366 56.5048544,80.5251366 Z M56.5048544,78.8414292 C84.5909468,78.8414292 107.359223,70.2981191 107.359223,59.759412 C107.359223,49.2207049 84.5909468,40.6773948 56.5048544,40.6773948 C28.4187619,40.6773948 5.65048544,49.2207049 5.65048544,59.759412 C5.65048544,70.2981191 28.4187619,78.8414292 56.5048544,78.8414292 Z" id="Combined-Shape" transform="translate(56.504854, 59.478794) rotate(120.000000) translate(-56.504854, -59.478794) "></path>
+                <ellipse id="Oval" cx="56.5048544" cy="59.4787941" rx="2.77892726" ry="2.74517511"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

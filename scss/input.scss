@@ -1,0 +1,222 @@
+* {
+  // border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(127,223,223,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    margin: 0 0 0 6px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.grid-container {
+  position: absolute;
+  top: 60px;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 900px;
+  min-width: 325px;
+}
+
+.grid-item {
+  width: 31%;
+  height: 31%;
+  // width: 100px;
+  // height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5vh;
+  .inner {
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+
+
+.box {
+}
+
+.footer {
+  position: absolute;
+  bottom: 36px;
+  img {
+    width: 150px;
+    height: 70px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.page2 {
+  display: none;
+  width: 600px;
+  height: auto;
+  .grid-2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    .grid-item-2 {
+      width: 50%;
+      height: 50%;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}
+
+.page3 {
+  display: none;
+  width: 600px;
+  height: auto;
+  .grid-3 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "pw pw ." "pw pw ." ". . .";
+    grid-gap: 1.5vh;
+    grid-column-gap: 3.5vh;
+    #pw {
+      display: flex;
+      flex-direction: column;
+      grid-area: pw;
+      img {
+        object-fit: cover;
+      }
+    }
+    .grid-item-3 {
+      width: 100%;
+      height: 100%;
+      img {
+
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.page4 {
+  display: none;
+  width: 600px;
+  height: auto;
+  .grid-4 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "weekend weekend ." "weekend weekend ." ". . .";
+    grid-gap: 1.5vh;
+    grid-column-gap: 3.5vh;
+    #weekend {
+      display: flex;
+      flex-direction: column;
+      grid-area: weekend;
+      img {
+        object-fit: cover;
+      }
+    }
+    .grid-item-4 {
+      width: 100%;
+      height: 100%;
+      img {
+
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+#ui:hover, #w2:hover, #tuesday:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "front-end front-end . ." "front-end front-end . ." ". . . .";
+    grid-gap: 1.5vh;
+    grid-column-gap: 3.5vh;
+  }
+  #front-end {
+    display: flex;
+    flex-direction: column;
+    grid-area: front-end;
+    // margin-bottom: 12%;
+    img {
+      object-fit: cover;
+    }
+  }
+  .grid-item {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+  }
+}
+
+
+@media screen and (min-width: 1250px) {
+  .footer {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    img {
+      width: 12.5vw;
+      height: auto;
+    }
+  }
+}

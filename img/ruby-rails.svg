@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ruby-rails</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.8%" y="-8.8%" width="117.5%" height="117.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ruby-rails" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill-opacity="0.497169384" fill="#00BFC0" x="0" y="0" width="100" height="100" rx="10"></rect>
+        <g id="Group" filter="url(#filter-1)" transform="translate(9.000000, 10.000000)" fill="#FFFFFF" stroke="#979797">
+            <polygon id="Triangle-2" transform="translate(40.000000, 51.428571) scale(1, -1) translate(-40.000000, -51.428571) " points="40 22.8571429 80 80 0 80"></polygon>
+            <polygon id="Triangle-2" points="13.2307692 0 26.4615385 22.8571429 0 22.8571429"></polygon>
+            <polygon id="Triangle-2" points="40.3076923 0 53.5384615 22.8571429 27.0769231 22.8571429"></polygon>
+            <polygon id="Triangle-2" transform="translate(26.769231, 11.428571) scale(1, -1) translate(-26.769231, -11.428571) " points="26.7692308 0 40 22.8571429 13.5384615 22.8571429"></polygon>
+            <polygon id="Triangle-2" points="66.7692308 0 80 22.8571429 53.5384615 22.8571429"></polygon>
+            <polygon id="Triangle-2" transform="translate(53.230769, 11.428571) scale(1, -1) translate(-53.230769, -11.428571) " points="53.2307692 0 66.4615385 22.8571429 40 22.8571429"></polygon>
+        </g>
+        <path d="M66.1043956,51.9945055 L66.1043956,51.1483516 L61.5769231,51.1483516 L61.5769231,44.5659341 L66.1043956,44.5659341 L66.1043956,43.7197802 L61.5769231,43.7197802 L61.5769231,35.5 L58.8846154,35.5 L58.8846154,43.7197802 L39.4230769,43.7197802 L39.4230769,35.5 L36.7307692,35.5 L36.7307692,43.7197802 L32.8186813,43.7197802 L32.8186813,44.5659341 L36.7307692,44.5659341 L36.7307692,51.1483516 L32.8186813,51.1483516 L32.8186813,51.9945055 L36.7307692,51.9945055 L36.7307692,58.0054945 L32.8186813,58.0054945 L32.8186813,58.8516484 L36.7307692,58.8516484 L36.7307692,68.7857143 L39.4230769,68.7857143 L39.4230769,58.8516484 L58.8846154,58.8516484 L58.8846154,68.7857143 L61.5769231,68.7857143 L61.5769231,58.8516484 L66.1043956,58.8516484 L66.1043956,58.0054945 L61.5769231,58.0054945 L61.5769231,51.9945055 L66.1043956,51.9945055 Z M58.8846154,51.9945055 L58.8846154,58.0054945 L39.4230769,58.0054945 L39.4230769,51.9945055 L58.8846154,51.9945055 Z M39.4230769,51.1483516 L39.4230769,44.5659341 L58.8846154,44.5659341 L58.8846154,51.1483516 L39.4230769,51.1483516 Z" id="Combined-Shape" stroke="#979797" fill="#FFFFFF"></path>
+    </g>
+</svg>

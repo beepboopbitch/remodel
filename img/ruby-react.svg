@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ruby-react</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.8%" y="-8.8%" width="117.5%" height="117.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ruby-react" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill-opacity="0.497169384" fill="#00BFC0" x="0" y="0" width="100" height="100" rx="10"></rect>
+        <g id="Group-2" filter="url(#filter-1)" transform="translate(10.000000, 10.000000)" fill="#FFFFFF" stroke="#979797">
+            <g id="Group">
+                <polygon id="Triangle-2" transform="translate(40.000000, 51.384615) scale(1, -1) translate(-40.000000, -51.384615) " points="40 22.7692308 80 80 0 80"></polygon>
+                <polygon id="Triangle-2" points="13.2307692 0 26.4615385 22.7692308 0 22.7692308"></polygon>
+                <polygon id="Triangle-2" points="40.3076923 0 53.5384615 22.7692308 27.0769231 22.7692308"></polygon>
+                <polygon id="Triangle-2" transform="translate(26.769231, 11.384615) scale(1, -1) translate(-26.769231, -11.384615) " points="26.7692308 0 40 22.7692308 13.5384615 22.7692308"></polygon>
+                <polygon id="Triangle-2" points="66.7692308 0 80 22.7692308 53.5384615 22.7692308"></polygon>
+                <polygon id="Triangle-2" transform="translate(53.230769, 11.384615) scale(1, -1) translate(-53.230769, -11.384615) " points="53.2307692 0 66.4615385 22.7692308 40 22.7692308"></polygon>
+            </g>
+            <g id="Group" transform="translate(22.000000, 23.000000)">
+                <path d="M19,27.0769231 C8.50658975,27.0769231 0,23.9084767 0,20 C0,16.0915233 8.50658975,12.9230769 19,12.9230769 C29.4934102,12.9230769 38,16.0915233 38,20 C38,23.9084767 29.4934102,27.0769231 19,27.0769231 Z M19,26.5107692 C28.4440692,26.5107692 36.1,23.6380445 36.1,20.094359 C36.1,16.5506734 28.4440692,13.6779487 19,13.6779487 C9.55593078,13.6779487 1.9,16.5506734 1.9,20.094359 C1.9,23.6380445 9.55593078,26.5107692 19,26.5107692 Z" id="Combined-Shape"></path>
+                <path d="M19,27.0769231 C8.50658975,27.0769231 0,23.9084767 0,20 C0,16.0915233 8.50658975,12.9230769 19,12.9230769 C29.4934102,12.9230769 38,16.0915233 38,20 C38,23.9084767 29.4934102,27.0769231 19,27.0769231 Z M19,26.5107692 C28.4440692,26.5107692 36.1,23.6380445 36.1,20.094359 C36.1,16.5506734 28.4440692,13.6779487 19,13.6779487 C9.55593078,13.6779487 1.9,16.5506734 1.9,20.094359 C1.9,23.6380445 9.55593078,26.5107692 19,26.5107692 Z" id="Combined-Shape" transform="translate(19.000000, 20.000000) rotate(60.000000) translate(-19.000000, -20.000000) "></path>
+                <path d="M19,27.0769231 C8.50658975,27.0769231 0,23.9084767 0,20 C0,16.0915233 8.50658975,12.9230769 19,12.9230769 C29.4934102,12.9230769 38,16.0915233 38,20 C38,23.9084767 29.4934102,27.0769231 19,27.0769231 Z M19,26.5107692 C28.4440692,26.5107692 36.1,23.6380445 36.1,20.094359 C36.1,16.5506734 28.4440692,13.6779487 19,13.6779487 C9.55593078,13.6779487 1.9,16.5506734 1.9,20.094359 C1.9,23.6380445 9.55593078,26.5107692 19,26.5107692 Z" id="Combined-Shape" transform="translate(19.000000, 20.000000) rotate(120.000000) translate(-19.000000, -20.000000) "></path>
+                <ellipse id="Oval" cx="19" cy="20" rx="1" ry="1"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

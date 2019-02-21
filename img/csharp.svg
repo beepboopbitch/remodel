@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="100px" viewBox="0 0 101 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>csharp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M66.417235,14.7070227 L64.044149,18.8173281 C59.0649526,15.3467296 53.0106988,13.3115701 46.481108,13.3115701 C29.4981898,13.3115701 15.7308144,27.0789455 15.7308144,44.0618637 C15.7308144,61.0447819 29.4981898,74.8121573 46.481108,74.8121573 C51.0476414,74.8121573 55.3816855,73.8167524 59.2781001,72.0310827 L52.1580853,64.9110679 L55.5032762,61.565877 L63.5686636,69.6312644 C66.356296,67.7646421 68.8216875,65.4542465 70.8637582,62.8011575 L62.565877,54.5032762 L65.9110679,51.1580853 L73.5031856,58.750203 C74.3741968,57.1511943 75.1074156,55.4663029 75.6868928,53.7114779 L79.8603202,56.1210073 C79.0888267,58.2560766 78.1183111,60.2959383 76.9711742,62.2181916 L81.9868343,67.2338517 L87.6548091,61.565877 L91,64.9110679 L85.3320253,70.5790426 L91,76.2470174 L87.6548091,79.5922083 L81.9868343,73.9242336 L74.9242336,80.9868343 L80.5922083,86.6548091 L77.2470174,90 L71.5790426,84.3320253 L65.9110679,90 L62.565877,86.6548091 L68.2338517,80.9868343 L62.814985,75.5679676 C57.9259965,78.1077578 52.3711583,79.5429717 46.481108,79.5429717 C26.8854332,79.5429717 11,63.6575386 11,44.0618637 C11,24.4661888 26.8854332,8.58075568 46.481108,8.58075568 C53.8720575,8.58075568 60.7351914,10.8406029 66.417235,14.7070227 Z M71.5790426,77.6416434 L78.6416434,70.5790426 L74.233498,66.1708973 C72.1486268,68.7844848 69.7022818,71.0970024 66.9701561,73.0327569 L71.5790426,77.6416434 Z" id="path-1"></path>
+        <filter x="-8.1%" y="-8.0%" width="116.2%" height="116.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="csharp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill-opacity="0.497169384" fill="#00BFC0" x="0.5" y="0" width="100" height="100" rx="10"></rect>
+        <g id="Combined-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#979797" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

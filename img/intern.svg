@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>intern</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.1%" y="-9.6%" width="116.2%" height="119.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="intern" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill-opacity="0.497169384" fill="#00BFC0" x="0" y="0" width="100" height="100" rx="10"></rect>
+        <g id="Group" filter="url(#filter-1)" transform="translate(10.000000, 10.000000)" fill="#FFFFFF" stroke="#979797">
+            <rect id="Rectangle-9" x="3.5" y="14.5" width="76" height="51" rx="10"></rect>
+            <path d="M27.5,0.5 L27.5,25.5 L52.5,25.5 L52.5,0.5 L27.5,0.5 Z M29.62,2.62 L50.38,2.62 L50.38,24.94 L29.62,24.94 L29.62,2.62 Z" id="Combined-Shape"></path>
+            <path d="M26.5,1.5 L26.5,26.5 L51.5,26.5 L51.5,1.5 L26.5,1.5 Z M28.62,3.62 L49.38,3.62 L49.38,25.94 L28.62,25.94 L28.62,3.62 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle-9" x="0.5" y="16.5" width="76" height="51" rx="10"></rect>
+            <path d="M60.5,44.38 L60.5,42.62 L44.4155355,42.62 L44.3629569,42.1792233 C43.7072572,36.6823642 39.0390033,32.5 33.4705882,32.5 C27.4119867,32.5 22.5,37.4245815 22.5,43.5 C22.5,49.5754185 27.4119867,54.5 33.4705882,54.5 C39.0390033,54.5 43.7072572,50.3176358 44.3629569,44.8207767 L44.4155355,44.38 L60.5,44.38 Z M33.4705882,53.2 C28.1261341,53.2 23.7941176,48.8568758 23.7941176,43.5 C23.7941176,38.1431242 28.1261341,33.8 33.4705882,33.8 C38.8150424,33.8 43.1470588,38.1431242 43.1470588,43.5 C43.1470588,48.8568758 38.8150424,53.2 33.4705882,53.2 Z" id="Combined-Shape" transform="translate(41.500000, 43.500000) rotate(45.000000) translate(-41.500000, -43.500000) "></path>
+        </g>
+    </g>
+</svg>
